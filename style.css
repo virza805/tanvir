@@ -1,0 +1,288 @@
+*{margin:0;padding:0;}
+
+body{
+	/*font-family:qlassik,Sans-Serif, Arial !important;*/
+	/*background-color:#e8e8e8; 
+    font-family: 'Raleway', sans-serif; */
+
+    font-family: 'Source Sans Pro', sans-serif;
+	
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	font-family:sans-serif;
+	text-align: center;
+	position: relative;
+}
+.theme-default .nivo-directionNav a{
+	background: url(img/arrow.png) no-repeat;
+	width:64px;
+	height:64px;
+	
+}
+
+.nivo-directionNav .nivo-prevNav{}
+
+.theme-default  .nivo-directionNav a.nivo-nextNav{
+
+	background-position: -64px 0;
+	
+}
+a{
+	text-decoration:none;
+}
+#pot a{
+	text-decoration: none;
+	color:black;
+}
+#pot a img:hover{
+	background-color:#25c905;
+	height:100%;
+	width:100%;
+	color:#25c905;
+}
+
+
+.fix{
+	overflow:hidden;
+}
+
+.container_full{
+	width:100%;
+	
+}
+.container{
+	
+	display:block;
+	margin:px auto;
+}
+/* Menu Top No */
+.bk_top{
+	background-color: #f2f1f2;
+}
+#menu_top .rat{
+	float: right;
+}
+#menu_top ul{
+	list-style: none;
+}
+#menu_top ul li{
+	font-size: 16px;
+	float: left;
+	margin:0 7px;
+}
+#menu_top ul li a{
+	text-decoration: none;
+	color:black;
+}
+#menu_top ul li :hover{
+	
+}
+#menu_top ul li a:hover{
+	color: #0891ee;
+}
+/* Main ________ Menu No */
+
+.menu1 ul{
+	list-style: none;
+	/* float: right; */
+}
+.menu1 ul li{
+	float: left;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+.menu1 ul ul{
+	display: none;
+	position:absolute;
+	margin-top:px;
+	background-color:#ffff;
+	border-radius:20px 0 20px 0;
+	border:1px solid black;
+	
+}
+
+
+.menu1 ul li:hover > ul{
+	display: block;
+	margin-top:1px;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	color:black;
+	padding:5px 16px;
+	
+}
+.menu1 ul li a:hover{
+	background-color:#2ed40d;
+	transition:0.7s;
+	border-radius:20px 0 20px 0;
+	color:#ffff;
+
+}
+.active, .menu1 ul li a:hover{
+	background-color:#2ed40d;
+	color:#ffff;
+	transition:0.7s;
+	border-radius:20px 0 20px 0;
+	
+
+}
+
+
+#logo_left{
+	float:left;
+	position: relative;
+}
+/* JAMPING */
+.
+#logo_left h2{
+	transform:translate(-50%,-50%);
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	/*
+	top:7%;
+	left:31%;
+	*/
+	
+	}
+#logo_left h2 span{
+	color:#262626;
+	background:#fff;
+	padding:10px 15px;
+	font-family:arial;
+	display:table-cell;
+	box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc;
+animation: animate 2s infinite;
+}
+
+	@keyframes animate{
+		0%{
+			transform:translateY(0px);
+			box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0);
+		}
+		50%{
+			transform:translateY(-20px);
+			box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,.6);
+		}
+		100%{
+			transform:translateY(0px);
+			box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0);
+		}
+
+	}
+#logo_left h2 span:nth-child(1){
+	animation-delay:.6s;
+}
+#logo_left h2 span:nth-child(2){
+	animation-delay:1.2s;
+}
+#logo_left h2 span:nth-child(3){
+	animation-delay:1.8s;
+}
+#logo_left h2 span:nth-child(4){
+	animation-delay:2.4s;
+}
+#logo_left h2 span:nth-child(5){
+	animation-delay:3s;
+}
+#logo_left h2 span:nth-child(6){
+	animation-delay:3.6s;
+}
+/* JAMPING END*/
+
+/* Main ________  Menu Off */
+/*My Searvice*/
+.bk_gra{
+	
+	background:radial-gradient(#e6e6e6,#ffffff);
+}
+/*My Searvice end*/
+.poci{
+
+}
+.bk_line{
+	background-image: url("img/patnar_bk.png");
+	
+	background-repeat:no-repeat;
+	background-position:center;
+
+	background-position:fixed;
+}
+/*My Worke on*/
+
+.bk_pick{
+	background-image: url("img/bk1.png");
+	
+	
+	background-position:center;
+	background-position:fixed;
+}
+
+/*My Worke end*/
+
+/*Are you ready*/
+.bg_pick{
+
+	background-color: green;
+	color:#ffff;
+	/*
+	background-image: url("img/applay.png");
+	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:fixed;
+	*/
+}
+.k{
+	margin-bottom:50px;
+}
+h1{
+	margin:5px auto;
+	margin-top:30px;
+	font-weight: bold;
+}
+h2{
+	margin:10px auto;
+	margin-bottom:30px;
+	
+}
+
+p{
+	margin-bottom:35px;
+}
+.g{
+	color:green;
+}
+.r{
+	color: red;
+}
+.footer-bk{
+	background-color: black;
+}
+.servi_img{
+	width:124px;
+	
+	height: 124px;
+}
+.worke_img{
+	width:361px;
+	border:1px solid #282828;
+	height: 220px;
+}
+
+.wd{
+	width:400px;
+	border:1px solid black;
+	margin:5px auto;
+}
+#work .workes a{
+	
+	text-decoration: none;
+	color:black; 
+}
+#work .workes a:hover{
+	color:#2ed40d; 
+}
+

@@ -1,0 +1,276 @@
+*{margin:0; padding:0;}
+body{
+	font-family:Segoe UI;
+	-webkit-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+a{
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+}
+.fix{
+	overflow:hidden;
+}
+.container_full{
+	width:100%;
+}
+.container{
+	width:960px;
+	display:block;
+	margin:0 auto;
+	
+}
+.header_bg{
+	background:#23232e;
+	
+}
+.logo{
+	padding:50px 45%;
+}
+.below_icon{
+	padding:30px 50%;
+}
+#header h1{
+	text-align:center;
+	font-size:80px;
+	color:#ffffff;
+	font-family:Segoe UI;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#header p{
+	text-align:center;
+	font-size:18px;
+	color:#ffffff;
+	font-family:Segoe UI;
+	font-weight:Regular;
+}
+.what_bg{
+	background:url(img/what_bg.png) no-repeat;
+	
+}
+#section h4{
+	text-align:center;
+	font-size:30px;
+	color:#464b4f;
+	font-family:Segoe UI;
+	font-weight:Regular;
+	line-height:150%;
+	margin:122px 0 122px 0; 
+}
+#section h1{
+	text-align:center;
+	font-size:80px;
+	color:#464b4f;
+	font-family:Segoe UI;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#section h3{
+	text-align:center;
+	font-size:18px;
+	color:#464b4f;
+	font-family:Segoe UI;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#section p{
+	text-align:center;
+	font-size:18px;
+	color:#888a8b;
+	font-family:Segoe UI;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#section .c-3{
+	overflow:hidden;
+	float:left;
+	width:300px;
+	margin:100px 0 122px 0;
+}
+.m-2{
+	margin:0 30px 0 30px;
+}
+.work{
+	background:#23232e;
+}
+#section1 h1{
+	text-align:center;
+	font-size:80px;
+	color:#ffffff;
+	font-family:Segoe UI;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#section1 .menu ul{
+	text-align:center;
+	list-style:none;
+}
+#section1 .menu ul li{
+	/*float:left;*/
+	display:inline;
+	margin:0 10px;
+	color:#ffffff;
+}
+#section1 .menu ul li a{
+	
+	font-size:21px;
+	
+	font-family:Segoe UI;
+	font-weight:Regular;
+	text-transform:capitalize;
+}
+#section1 .menu ul li a:hover{
+	
+	border-bottom:2px solid #ffffff;
+	color:red;
+}
+
+
+
+
+
+
+#section1 .my_work h2{
+	text-align:center;
+	font-size:21px;
+	color:#ffffff;
+	font-family:Segoe UI;
+	font-weight:Regular;
+	
+}
+#section1 .my_work p{
+	text-align:center;
+	font-size:15px;
+	color:#818baa;
+	font-family:Segoe UI;
+	font-weight:Regular;
+}
+#section1 .imag{
+	overflow:hidden;
+	float:left;
+	width:300px;
+	margin:30px 0 30px 0;
+}
+#section1 .middle{
+	margin:30px 30px 0 30px;
+}
+
+
+
+.photography{
+	background:url(img/photo_bg.png) no-repeat;
+	
+}
+#section2 h1{
+	text-align:center;
+	font-size:80px;
+	color:#464b4f;
+	font-family:Segoe UI;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-top:122px;
+}
+#section2 h4{
+	text-align:center;
+	font-size:30px;
+	color:#464b4f;
+	font-family:Segoe UI;
+	font-weight:Regular;
+	line-height:150%;
+	margin:122px 0 122px 0; 
+}
+button{
+	display:block;
+	margin:88px auto;
+	
+}
+.bfooter{
+	background:#23232e;
+}
+#section3 h3{
+	text-align:center;
+	font-size:18px;
+	color:#ffffff;
+	font-family:Segoe UI;
+	font-weight:Regular;
+	margin:70px;
+}
+.logo1{
+padding:50px 45%;
+padding-top:122px;
+}
+.foot{
+	background:url(img/photo_bg.png) no-repeat;
+}
+#social_icon ul{}
+#social_icon ul li{}
+#social_icon ul li a{}
+#social_icon ul{}
+
+#social_icon{
+	margin-top:30px;
+	margin-left:350px;
+}
+
+#social_icon ul{
+	list-style:none;
+}
+#social_icon ul li{
+	display:inline-block;
+	margin:0 10px;
+}
+#social_icon ul li.facebook a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/fb1.png) no-repeat;
+}
+#social_icon ul li.facebook:hover a{
+	background:url(images/fb.png) no-repeat;
+}
+
+
+#social_icon ul li.twitter a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(images/tw.png) no-repeat;
+}
+#social_icon ul li.twitter:hover a{
+	background:url(images/tw1.png) no-repeat;
+}
+
+
+
+
+footer>p{
+	text-align:center;
+	font-size:18px;
+	color:#464b4f;
+	font-family:Segoe UI;
+	font-weight:Regular;
+	margin:16px;
+}
+/*
+#header .below_icon a{
+	display:block;
+	width:51px;
+	height:51px;
+	
+	background:url(img/below_icon.png) no-repeat;
+	*/
+}
+/**.fast_box{
+	background-color:#23232e;
+	height:850;
+}
+**/

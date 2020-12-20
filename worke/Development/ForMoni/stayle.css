@@ -1,0 +1,308 @@
+*{margin:0;padding:0;}
+
+body{
+	/*font-family:qlassik,Sans-Serif, Arial !important;*/
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color:#fc8c14;
+	text-align:center;
+	position:relative;
+	
+	animation-name:tanvir;
+	animation-duration:30s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	
+}
+
+@keyframes tanvir {
+	0%   {background-color:#ffffff;}
+	25%  {background-color:yellow;}
+	50%  {background-color:#fc8c14;}
+	75%  {background-color:green;}
+	100% {background-color:#ffffff;}
+}
+
+
+a{
+	text-decoration:none;
+}
+/*
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+	
+}
+
+https://www.youtube.com/watch?v=6IgyVLe5ny4&list=PL-OcaXZwrwuLxPVe8qGeyRI-o8CuRo-fC&index=4
+*/
+.fix{
+	overflow:hidden;
+}
+.container_full{
+	width:100%;
+}
+.container{
+	width:1170px;
+	display:block;
+	margin:0 auto;
+	margin-top:92px;
+}
+.container1{
+	width:1170px;
+	display:block;
+	margin:0 auto;
+	
+}
+.top_menu ul li a{
+	color:#423e3e;
+}
+.butoon{
+	/* width:1170px; */
+	border:2px solid #2896f6;
+	border-radius:20px;
+	background-color:#2896f6;
+	background:radial-gradient(#2896f6,#f2f3f4 );
+	margin:10px auto;
+	
+	/* background:linear-gradient(to top left,green,blue); */
+}
+
+.butoon a{
+	padding:4px auto;
+	text-decoration:none;
+	display:inline;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+.buton{
+	/* width:1170px; */
+	border:2px solid #2896f6;
+	border-radius:20px;
+	background-color:#2896f6;
+	margin:20px 125px 20px 125px;
+	margin-top:50px;
+	
+	/* background:liner-gradient(to top left,green,blue); */
+}
+.buton a{
+	text-decoration:none;
+	color:#fff;
+	padding:22px 20px;
+	padding-bottom:8px;
+	padding-top:8Px;
+}
+.view_like{
+	border:1px solid #2896f6;
+	border-radius:20px;
+	margin:16px auto;
+	background-color:#dbdfe066;
+}
+.opacity{
+	/* width:1170px; */
+	border:1px solid #0000001a;
+	border-radius:20px;
+	
+	background-color:#2896f61a;
+	/*opacity:0.16;
+	
+	
+	 background:liner-gradient(to top left,green,blue); 
+	 
+	 */
+}
+
+
+#logo_left{
+	float:left;
+	position: relative;
+}
+/* JAMPING */
+.
+#logo_left h2{
+	
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	/*
+	top:7%;
+	left:31%;
+	*/
+	
+	}
+
+
+
+.img_bk1{
+	background-image: url("img/kid.png");
+	
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-position:fixed;
+	/*width:361px;*/
+	height:392px;
+	border:1px solid #2896f6;
+	
+	border-radius:20px;
+}
+.servic_bk{
+	background-image: url("img/patnar_bk.png");
+	
+	background-repeat:no-repeat;
+	background-position:center;
+	background-position:fixed;
+	/*width:361px;*/
+	
+	
+	
+	
+}
+.mkf{
+	margin-top:290px;
+	
+}
+.mkf ul li a h3{
+	font-style:bold;
+}
+.tanzil{
+	margin-top:110px;
+}
+
+
+.power{
+	z-index:99999;
+}
+
+.power1{
+	z-index:5;
+}
+.im_bk{
+	background-image: url("img/m4.png");
+	
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-position:fixed;
+	/*width:361px;*/
+	height:190px;
+	border:1px solid #2896f6;
+	
+	border-radius:20px;
+	margin:20px auto;
+}
+
+.p_item nav .nav li{
+	margin-top:134px;
+}
+.p_item nav .nav li a{
+	margin-left:9px;
+}
+
+.img_bk{
+	background-image: url("img/n.png");
+	
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-position:fixed;
+	/*width:361px;*/
+	height:290px;
+	border:1px solid #2896f6;
+	
+	border-radius:20px;
+	margin:20px auto;
+}
+.view_like nav ul li{
+	
+}
+.img_bk nav ul li a{
+	margin:0 92px;
+}
+.na{
+	margin:0 12px;
+}
+/* Menu icon Pogition */
+.img_bk1 img{
+	margin:6px 0 0 6px;
+	display:block;
+}
+.color h2{
+	color:#0b950b;
+	font-weight:bold;
+}
+h1{
+	color:#391207;
+	font-weight:bold;
+}
+
+.map{
+	background-image: url("img/map.png");
+	
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-position:fixed;
+	/*width:361px;*/
+	height:440px;
+	border:1px solid #2896f6;
+	
+	border-radius:20px;
+	
+}
+.location{
+	background:#dbe3db;
+	/*
+	width:361px;
+	height:440px;
+	*/
+	border:1px solid #2896f6;
+	border-radius:20px;
+	margin:30% 30px 0 30px;
+	color:red;
+}
+
+
+
+
+ul li a:hover{
+	color:red;
+}
+
+#demo ul li a:hover {
+	
+	background-color:green;
+	transition:2s;
+	border-radius:20px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+*{margin:0;padding:0;}
+
+body{
+	/*font-family:qlassik,Sans-Serif, Arial !important;*/
+	
+	/*background-color:#e8e8e8; */
+	font-family: 'Source Sans Pro', sans-serif;
+	
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+}
+a{
+	text-decoration:none;
+	color:#212121;
+}
+
+.fix{
+	overflow:hidden;
+}
+
+.container_full{
+	width:100%;
+	
+}
+.container{
+	
+	display:block;
+	margin:0 auto;
+}
+/* Menu No */
+#menu1 ul{
+	list-style: none;
+}
+#menu1 ul li{
+	
+	width: 100px;
+	height: 40px;
+	
+	
+	text-align: center;
+	
+	font-size: 16px;
+	float: left;
+	position: relative;
+
+}
+#menu1 ul li a{
+	text-decoration: none;
+	
+	color: black;
+	line-height:30px;
+}
+
+#menu1 ul li:hover{
+	
+	color: green;
+}
+#menu1 ul li a:hover{
+	color: green;
+}
+#menu1 ul ul{
+	display: none;
+	position:absolute;
+	margin-top:10px;
+	background-color:green;
+	
+}
+
+
+#menu1 ul li:hover > ul{
+	display: block;
+}
+/* Menu end */
+
+
+h3{
+	font-size:72px;
+	color:#106b6a;
+	margin-top:70px;
+	margin-bottom:70px;
+	font-weight: bold;
+
+}
+#para p{
+	font-size:18px;
+	color:#106b6a;
+	margin-top:px;
+	margin-bottom:100px;
+	width:660px;
+}
+.finsl{
+	width: 1200px;
+	height: 2px;
+	background-color:#bfbfbf;
+	margin-bottom:25px;
+
+}
+
+
+.fot_right{
+	margin-left:40%;
+}
+
+.mer{
+	margin:40px auto;
+}
+
+.fins{
+	margin:60px auto;
+	
+}
+.footer_bk{
+	background-color: #161110;
+
+}
+
+.finsl{
+	width: 1200px;
+	height: 2px;
+	background-color:#bfbfbf;
+	margin-bottom:25px;
+
+}
+.pr_bga{
+	background-color: #f2f2f2;
+
+}
+
+.po_c4{
+	background-color: #ffffff;
+	border-bottom:2px solid #106b6a;
+}
+.pr_bga h2{
+	font-size:70px;
+	color:#ffffff;
+	margin-top:250px;
+	margin-bottom:45px;
+	font-weight: bold;
+}
+.grid_item{
+	margin-top: 50px;
+}
+.grid_item a> h4{
+	margin-top:25px;
+	margin-bottom:20px;
+	position: relative;
+
+	font-weight: bold;
+	text-decoration: none;
+	color: #212121;
+}
+.imgs_bb{
+	width:385px;
+	height: 2px;
+	background-color:#106b6a;
+	margin-bottom:45px;
+	position: absolute;
+	margin:0 auto;
+	margin-left: 25px;
+}
+/*background:linear-gradient(to right #c8dfe5, #b7e9fe);*/
+.bk_c{
+	background:#c8dfe5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
